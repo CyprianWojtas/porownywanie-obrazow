@@ -1,0 +1,35 @@
+body
+{
+	font-family: sans-serif;
+}
+.przerzucaniePlikow
+{
+	width: 100%;
+	height: 20vh;
+	border: 3px dashed #005;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 20vh;
+	font-size: 20px;
+	transition-duration: 0.2s;
+}
+.przerzucaniePlikow::before
+{
+	content: "Przerzuć obrazy";
+}
+.przerzucaniePlikow.przerzucanie
+{
+	font-size: 25px;
+	background: #00F1;
+}
+/* img
+{
+	height: 100px;
+} */
+canvas
+{
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid;
+	max-width: 100%;
+}
